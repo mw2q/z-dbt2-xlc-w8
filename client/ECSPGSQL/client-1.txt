@@ -1,0 +1,5 @@
+opening 80 connection(s) to localhost...
+listening on port '30000'
+listening to port 30000
+client has started
+80 DB worker threads have started

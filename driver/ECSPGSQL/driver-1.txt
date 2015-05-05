@@ -1,0 +1,129 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 8
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 8
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430778755
+driver will ramp up in  7 seconds
+will stop test at time 1430779362
+seed for 40677:fd4b1910 : 2819019532
+seed for 40677:fd213910 : 2825544314
+seed for 40677:fd1f3910 : 2824203345
+seed for 40677:fd1d3910 : 2824148038
+seed for 40677:fd1b3910 : 2824724332
+seed for 40677:fd193910 : 2824687177
+seed for 40677:fd173910 : 2824130258
+seed for 40677:fd153910 : 2824107436
+seed for 40677:fd133910 : 2824075312
+seed for 40677:fd113910 : 2824823075
+seed for 40677:fd0f3910 : 2822958841
+seed for 40677:fd0d3910 : 2823163501
+seed for 40677:fd0b3910 : 2822879954
+seed for 40677:fd093910 : 2823716721
+seed for 40677:fd073910 : 2822890066
+seed for 40677:fd053910 : 2822846683
+seed for 40677:fd033910 : 2822812602
+seed for 40677:fd013910 : 2822766606
+seed for 40677:fcff3910 : 2847913991
+seed for 40677:fcfd3910 : 2847118567
+seed for 40677:fcfb3910 : 2847358185
+seed for 40677:fcf93910 : 2847065266
+seed for 40677:fcf73910 : 2847857541
+seed for 40677:fcf53910 : 2847028231
+seed for 40677:fcf33910 : 2847298745
+seed for 40677:fcf13910 : 2847221977
+seed for 40677:fcef3910 : 2846666745
+seed for 40677:fced3910 : 2846659612
+seed for 40677:fceb3910 : 2846116108
+seed for 40677:fce93910 : 2846330575
+seed for 40677:fce73910 : 2846575277
+seed for 40677:fce53910 : 2846797334
+seed for 40677:fce33910 : 2846544020
+seed for 40677:fce13910 : 2846239338
+seed for 40677:fcdf3910 : 2845530088
+seed for 40677:fcdd3910 : 2845420816
+seed for 40677:fcdb3910 : 2845392799
+seed for 40677:fcd93910 : 2845348235
+seed for 40677:fcd73910 : 2845326330
+seed for 40677:fcd53910 : 2845554298
+seed for 40677:fcd33910 : 2845784205
+seed for 40677:fcd13910 : 2845478694
+seed for 40677:fccf3910 : 2844189003
+seed for 40677:fccd3910 : 2844428538
+seed for 40677:fccb3910 : 2844671438
+seed for 40677:fcc93910 : 2844628549
+seed for 40677:fcc73910 : 2844120610
+seed for 40677:fcc53910 : 2844096875
+seed for 40677:fcc33910 : 2844573806
+seed for 40677:fcc13910 : 2844546937
+seed for 40677:fcbf3910 : 2851338450
+seed for 40677:fcbd3910 : 2851545608
+seed for 40677:fcbb3910 : 2851272815
+seed for 40677:fcb93910 : 2852065290
+seed for 40677:fcb73910 : 2851222375
+seed for 40677:fcb33910 : 2851154643
+seed for 40677:fcb53910 : 2851580435
+seed for 40677:fcb13910 : 2851164547
+seed for 40677:fcaf3910 : 2850119126
+seed for 40677:fcad3910 : 2850055494
+seed for 40677:fcab3910 : 2850053250
+seed for 40677:fca93910 : 2850284556
+seed for 40677:fca73910 : 2851039083
+seed for 40677:fca53910 : 2850237151
+seed for 40677:fca33910 : 2850480930
+seed for 40677:fca13910 : 2850194340
+seed for 40677:fc9f3910 : 2849918662
+seed for 40677:fc9d3910 : 2849875528
+seed for 40677:fc9b3910 : 2849276015
+seed for 40677:fc993910 : 2849303947
+seed for 40677:fc973910 : 2849803441
+seed for 40677:fc953910 : 2849850038
+seed for 40677:fc933910 : 2849719292
+seed for 40677:fc913910 : 2849465434
+seed for 40677:fc8f3910 : 2848652070
+seed for 40677:fc8d3910 : 2848863259
+seed for 40677:fc8b3910 : 2848588018
+seed for 40677:fc893910 : 2848567283
+seed for 40677:fc873910 : 2848543160
+seed for 40677:fc853910 : 2848515375
+terminals started...
+driver is exiting normally
